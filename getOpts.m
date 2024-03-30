@@ -5,4 +5,6 @@ function opts = getOpts()
     opts.doMessage = 0;
 
     opts.drawDoor = 1;
+
+    opts.wideDoor = 1;
 end

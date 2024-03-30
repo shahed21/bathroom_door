@@ -10,12 +10,15 @@ function mtrls = materials()
     mtrls.plank2.width = 5.5;
     mtrls.plank2.thickness = .75;
 
-    mtrls.rail = {};
-    mtrls.rail.length = 4 * 12;
-    mtrls.rail.width = 1.58;
-    mtrls.rail.thickness = 0.24;
-    mtrls.rail.holePos = [8; 24; 40];
-    mtrls.rail.holeDiameter = 0.42;
+    mtrls.flat_track = {};
+    mtrls.flat_track.length = 4 * 12;
+    mtrls.flat_track.width = 1.58;
+    mtrls.flat_track.thickness = 0.24;
+    mtrls.flat_track.holePos = [8; 24; 40];
+    mtrls.flat_track.holeDiameter = 0.42;
+    mtrls.flat_track.number = 2;
+
+    
 
     mtrls.railSpacer = {};
     % mtrls.railSpacer.

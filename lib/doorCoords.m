@@ -1,5 +1,5 @@
-function coords = doorCoords()
-    consts = constants();
+function coords = doorCoords(opts)
+    consts = constants(opts);
     coords = zeros(3,8);
     coords(:,1) = [                    0;                 0;                  0];
     coords(:,2) = [consts.door.thickness;                 0;                  0];
