@@ -18,7 +18,13 @@ function mtrls = materials()
     mtrls.flat_track.holeDiameter = 0.42;
     mtrls.flat_track.number = 2;
 
-    
+    mtrls.spacer = {};
+    mtrls.spacer.inner_diameter = 0.4;
+    mtrls.spacer.lip_diameter = 1.17;
+    mtrls.spacer.smallerdiameter = 0.78;
+    mtrls.spacer.smallheight = 1;
+    mtrls.spacer.wholeheight = 1.3;
+    mtrls.spacer.number = 6;
 
     mtrls.railSpacer = {};
     % mtrls.railSpacer.
